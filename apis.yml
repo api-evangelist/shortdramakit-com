@@ -1,0 +1,30 @@
+aid: shortdramakit-com
+name: ShortDramaKit API
+description: 'ShortDramaKit API is a company surfaced via the API Evangelist harvest backlog (source:
+  new-submission) and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/shortdramakit-com/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-16'
+modified: '2026-11-16'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://shortdramakit.com/
+- type: Documentation
+  url: https://shortdramakit.com/docs/api
+x-submission-notes: 'I work on ShortDramaKit and am submitting our own API for editorial consideration.
+  It helps developers organize metadata from supported short-drama platforms through quoted tasks and
+  saved CSV/JSON exports. One example task is an original supported title link -> upfront estimate ->
+  owned collection '
+x-submission-probe: root 200, invented path 404 (2026-11-16 bulk pass over unrecorded submissions)
