@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ShortDramaKit API is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://shortdramakit.com/
+ShortDramaKit provides developers with tools to organize and export metadata from various short‑drama platforms. Users can input title links, receive upfront estimates, and generate collections, exporting results as CSV or JSON. The service offers a web interface and an API for searching titles, selecting fields, and downloading data, supporting platforms such as ReelShort, DramaBox, NetShort, GoodShort, ShortMax, and PineDrama. Pricing is transparent, and a free read‑only endpoint allows capability checks without authentication.
+
+**Areas:** short drama · data · API · research tools · content catalog
+
+## ShortDramaKit API on APIs.io
+
+Everything profiled for ShortDramaKit API is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shortdramakit-com/](https://apis.io/providers/shortdramakit-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [ShortDramaKit API](https://apis.io/apis/shortdramakit-com/shortdramakit-api/) — The ShortDramaKit API provides endpoints to search titles, retrieve metadata, and export results as CSV or JSON across supported short‑drama platforms.…
+- [ShortDramaKit API API](https://apis.io/apis/shortdramakit-com/shortdramakit-com-api/) — ShortDramaKit API API as documented publicly: 9 operations. Contract generated from the documentation by API Evangelist (2026-11-16); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1ToolkitTasksTaskidResponse](https://apis.io/schemas/shortdramakit-com/shortdramakit-com-get-api-v1-toolkit-tasks-taskid-response/)
+- [GetApiV1ToolkitTasksTaskidVersionsResponse](https://apis.io/schemas/shortdramakit-com/shortdramakit-com-get-api-v1-toolkit-tasks-taskid-versions-response/)
+- [PostApiV1ToolkitQuotesRequest](https://apis.io/schemas/shortdramakit-com/shortdramakit-com-post-api-v1-toolkit-quotes-request/)
+- [PostApiV1ToolkitQuotesResponse](https://apis.io/schemas/shortdramakit-com/shortdramakit-com-post-api-v1-toolkit-quotes-response/)
+- [PostApiV1ToolkitTasksResponse](https://apis.io/schemas/shortdramakit-com/shortdramakit-com-post-api-v1-toolkit-tasks-response/)
+- [PostApiV1ToolkitTasksTaskidAdvanceResponse](https://apis.io/schemas/shortdramakit-com/shortdramakit-com-post-api-v1-toolkit-tasks-taskid-advance-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Shortdramakit Com Context](https://apis.io/jsonld/shortdramakit-com/shortdramakit-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ShortDramaKit API API Rules](https://apis.io/rules/shortdramakit-com/shortdramakit-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [ShortDramaKit API Domain Security](https://apis.io/security/shortdramakit-com/shortdramakit-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [ShortDramaKit API Plans Pricing](https://apis.io/plans/shortdramakit-com/shortdramakit-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://shortdramakit.com/)
+- [Documentation](https://shortdramakit.com/docs/api)
+- [Getting started](https://shortdramakit.com/docs/getting-started)
+- [API reference](https://shortdramakit.com/docs/api)
+- [Pricing](https://shortdramakit.com/pricing)
+- [Sign up](https://shortdramakit.com/login)
+- [Blog](https://shortdramakit.com/blog)
+- [Terms of service](https://shortdramakit.com/terms)
+- [Privacy policy](https://shortdramakit.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 45.7** — developing · rubric 0.28.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 51.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 59.1 |
+
+**Agent readiness 19.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | derived (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shortdramakit-com/](https://apis.io/providers/shortdramakit-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ShortDramaKit API: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/shortdramakit-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
